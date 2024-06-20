@@ -2,7 +2,7 @@ declare
     v_dato1    number;
     v_dato2    number;
 begin
-    select 1, 2
+    select 1, to_number('2')
       into v_dato1, v_dato2
       from dual;
 
