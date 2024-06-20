@@ -1,8 +1,8 @@
 declare
     v_dato1    number;
-    v_dato2    number;
+    v_dato2    varchar2(4000);
 begin
-    select 1, to_number('2')
+    select 1, '2'
       into v_dato1, v_dato2
       from dual;
 
