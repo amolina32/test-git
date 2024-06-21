@@ -8,5 +8,9 @@ begin
 
     dbms_output.put_line('v_dato1: '|| v_dato1);
     dbms_output.put_line('v_dato2: '|| v_dato2);
+EXCEPTION
+   WHEN  no_data_found THEN
+   dbms_output.put_line('v_dato1: '|| v_dato1);
+    
 end;
 /
